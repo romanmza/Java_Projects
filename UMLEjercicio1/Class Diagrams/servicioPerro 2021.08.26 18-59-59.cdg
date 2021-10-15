@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="servicioPerro">
+  <ClassDiagramComponents>
+    <Class name="servicioPerro" package="Relaciones_1.servicios" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="leer" type="Scanner" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="crearPerro" returnType="Perro" visibility="public"/>
+        <Method name="mostrarPerro" returnType="void" visibility="public">
+          <Argument type="Perro" name="p"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

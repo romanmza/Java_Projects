@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Diagrama1">
+  <ClassDiagramComponents>
+    <Class name="Perro" package="" visibility="public" xPosition="571.0" yPosition="113.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="raza" type="String" visibility="private"/>
+        <Field name="edad" type="int" visibility="private"/>
+        <Field name="tamanio" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="untitledMethod" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Persona" package="" visibility="public" xPosition="82.0" yPosition="104.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="apellido" type="String" visibility="private"/>
+        <Field name="edad" type="int" visibility="private"/>
+        <Field name="documento" type="long" visibility="private"/>
+        <Field name="perro" type="Perro" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="untitledMethod" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="agregac_01" source="Persona" target="Perro" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
